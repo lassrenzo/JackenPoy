@@ -1,0 +1,25 @@
+body{
+    background-color: #f2f2f2;
+}
+.container {
+    width: 100%;  
+    padding: 2%;
+    text-align: center;
+}
+.rsp {
+    text-align: center;
+    display: inline-block;
+    margin: 5%;
+}
+.img1 , .img2{
+    width: 20rem;
+}
+h1{
+
+    text-shadow: 5px 0px #868e96;
+    font-size: 5rem !important;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+}
