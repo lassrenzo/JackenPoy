@@ -3,7 +3,7 @@ body{
 }
 .container {
     width: 100%;  
-    padding: 2%;
+    padding: 1%;
     text-align: center;
 }
 .rsp {
@@ -15,7 +15,6 @@ body{
     width: 20rem;
 }
 h1{
-
     text-shadow: 5px 0px #868e96;
     font-size: 5rem !important;
 }
