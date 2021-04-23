@@ -34,37 +34,37 @@ var scissor = "rsp3.png";
 // IF ROCK WINS!
 if (randomImage1 == rock && randomImage2 == scissor) {
   document.querySelector("h1").innerHTML = "ROCK WINS!";
-  document.querySelector('.p1').innerHTML = "PLAYER 1 WINS!";
-  document.querySelector('.p2').innerHTML = "PLAYER 2";
+  document.querySelector('.p1').innerHTML = "🚩 <strong>PLAYER 1 WINS!</strong>";
+  document.querySelector('.p2').innerHTML = "🏳️ <strike>PLAYER 2</strike>";
  }
 else if (randomImage1 == scissor && randomImage2 == rock) {
   document.querySelector("h1").innerHTML = "ROCK WINS!";
-  document.querySelector('.p1').innerHTML = "🏳️ PLAYER 1";
-  document.querySelector('.p2').innerHTML = "🚩 PLAYER 2 WINS!";
+  document.querySelector('.p1').innerHTML = "🏳️ <strike>PLAYER 1</strike>";
+  document.querySelector('.p2').innerHTML = "🚩 <strong>PLAYER 2 WINS!</strong>";
  }
 
  // IF PAPER WINS!
  else if (randomImage1 == paper && randomImage2 == rock) {
   document.querySelector("h1").innerHTML = "PAPER WINS!";
-  document.querySelector('.p1').innerHTML = "🚩 PLAYER 1 WINS!";
-  document.querySelector('.p2').innerHTML = "🏳️ PLAYER 2";
+  document.querySelector('.p1').innerHTML = "🚩 <strong>PLAYER 1 WINS!</strong>";
+  document.querySelector('.p2').innerHTML = "🏳️ <strike>PLAYER 2</strike>";
  }
  else if (randomImage1 == rock && randomImage2 == paper) {
   document.querySelector("h1").innerHTML = "PAPER WINS!";
-  document.querySelector('.p1').innerHTML = "🏳️ PLAYER 1";
-  document.querySelector('.p2').innerHTML = "🚩 PLAYER 2 WINS!";
+  document.querySelector('.p1').innerHTML = "🏳️ <strike>PLAYER 1</strike>";
+  document.querySelector('.p2').innerHTML = "🚩 <strong>PLAYER 2 WINS!</strong>";
  }
 
   // IF SCISSOR WINS!
   else if (randomImage1 == scissor && randomImage2 == paper) {
     document.querySelector("h1").innerHTML = "SCISSOR WINS!";
-    document.querySelector('.p1').innerHTML = "🚩 PLAYER 1 WINS!";
-    document.querySelector('.p2').innerHTML = "🏳️ PLAYER 2";
+    document.querySelector('.p1').innerHTML = "🚩 <strong>PLAYER 1 WINS!</strong>";
+    document.querySelector('.p2').innerHTML = "🏳️ <strike>PLAYER 2</strike>";
 }
 else if (randomImage1 == paper && randomImage2 == scissor) {
     document.querySelector("h1").innerHTML = "SCISSOR WINS!";
-    document.querySelector('.p1').innerHTML = "🏳️ PLAYER 1";
-    document.querySelector('.p2').innerHTML = "🚩 PLAYER 2 WINS!";
+    document.querySelector('.p1').innerHTML = "🏳️ <strike>PLAYER 1</strike>";
+    document.querySelector('.p2').innerHTML = "🚩 <strong>PLAYER 2 WINS!</strong>";
 }
 
 // IF THE TWO PLAYER SAME ROCK/PAPER/SCISSOR
