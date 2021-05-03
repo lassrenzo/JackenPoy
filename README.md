@@ -5,4 +5,4 @@ Using: HTML, CSS, JS and Bootstrap
 
 ## Link to my project
 
-[Jack 'En Poy](https://lassrenzo.github.io/JackenPoy/)
+[Jack 'En Poy](https://lassrenzo.github.io/RSP/)
